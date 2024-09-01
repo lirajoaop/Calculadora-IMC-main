@@ -10,9 +10,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* altura da tela do usuário */
-  min-height: 100vh; 
-  color: #FFF;
+  /* user screen height */
+  min-height: 100vh;
+  color: #fff;
 }
 
 .hide {
@@ -42,7 +42,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
 .form-control label {
@@ -60,16 +60,15 @@ body {
   justify-content: space-between;
   margin-top: 2rem;
   gap: 1rem;
-
 }
 
 button {
   text-transform: uppercase;
   padding: 1rem 1.5rem;
-  background-color: #F44236;
+  background-color: #f44236;
   border: none;
   color: #fff;
-  /* MAOZINHA NO NAVEGADOR */
+  /* cursor */
   cursor: pointer;
   opacity: 0.9;
   flex: 1;
@@ -93,7 +92,7 @@ button:hover {
 
 #imc-number {
   font-size: 2.4rem;
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
 }
 
 #imc-info {
@@ -106,9 +105,9 @@ button:hover {
   color: #dfdfdf;
 }
 
-#imc-table{
+#imc-table {
   margin: 1.5rem 0;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .table-header {
@@ -120,13 +119,13 @@ button:hover {
 .table-data {
   display: flex;
   justify-content: space-between;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid #444;
-  text-align: center ;
+  text-align: center;
 }
 
-/* ALINHANDO TUDO, ISSO FOI MUITO MASSA */
+/* aligning */
 .table-header h4,
 .table-data p {
   flex: 1;
@@ -156,5 +155,3 @@ button:hover {
 .high {
   color: #db1912;
 }
-
-
